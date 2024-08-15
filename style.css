@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Roboto", sans-serif;
+}
+
 .page-wrapper {
     max-height: 100vh;
     width: auto;
@@ -42,7 +46,7 @@ h1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 100px;
+    gap: 95px;
 }
 
 .nav-links {
@@ -83,6 +87,7 @@ h2 {
     justify-content: center;
     gap: 50px;
     padding-bottom: 50px;
+    background-color: white;
 }
 
 .image-one, .image-two, .image-three, .image-four {
@@ -91,7 +96,10 @@ h2 {
     align-items: center;
     width: 150px;
     text-align: center;
-    color: #E5E7EB;
+}
+
+figcaption {
+    color: #c0c2c4;
 }
 
 
@@ -118,6 +126,8 @@ h2 {
     right: 290px; 
     bottom: 20px;
     font-weight: normal; 
+    font-size: 16px;
+    font-weight: 900;
 }
 
 .sign-up {
@@ -172,5 +182,5 @@ footer {
     background-color: #1F2937;
     color: #E5E7EB;
     font-size: 18px;
-    padding: 50px 0;
+    padding: 45px 0;
 }
