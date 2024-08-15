@@ -17,6 +17,8 @@ body {
     width: auto;
 }
 
+/* this is for my header */
+
 header {
     background-color: #1F2937;
     height: 30rem;
@@ -76,6 +78,8 @@ h1 {
     margin-bottom: 30px;
 }
 
+/* This is for my Drinks Section */
+
 h2 {
     text-align: center;
     margin-top: 20px;
@@ -109,12 +113,13 @@ figcaption {
     text-align-last: center;
 }
 
-
 .image {
     width: 150px;
     border-radius: 5px;
     border: 2px solid #3882F6;
 }
+
+/* this is for my quote section */
 
 .quote {
     font-size: 20px;
@@ -136,6 +141,8 @@ figcaption {
     font-size: 16px;
     font-weight: 900;
 }
+
+/* this is for my newsletter section */
 
 .sign-up {
     background: white;
@@ -183,6 +190,8 @@ h4 {
     padding-bottom: 2px;
     font-size: 18px;
 }
+
+/* this is for my footer */
 
 footer {
     text-align: center;
