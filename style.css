@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Roboto", sans-serif;
 }
@@ -99,7 +103,10 @@ h2 {
 }
 
 figcaption {
-    color: #c0c2c4;
+    color: #929395;
+    text-align: justify;
+    text-justify: inter-word;
+    text-align-last: center;
 }
 
 
